@@ -1,0 +1,100 @@
+                     ******************
+                     * MicrowaveUnits *
+                     ******************
+
+   This module contains units typical for microwave electronics.
+   It is suggested to import it as
+       >>> import MicrowaveUnits as ut
+   Unit system is build so that a Kelvin is equal to 1. All other energy units
+are defined with respect to a Kelvin. All units are converted into a dimensionless
+system where
+
+                   h_bar = 2e = Kelvin = 1
+
+   This module can also be used for unit conversion.
+
+ ______________________________
+|  Units stored in the module  |
+|______________________________|
+
+
+Energy units:
+    K, mK, uK
+    THz, GHz, MHz, kHz
+    eV, meV, ueV
+
+Time units:
+    ms, us, ns
+
+Capacitance units:
+    nF, pF, fF, aF
+
+Inductance Units:
+    uH, nH, pH
+    
+Charge units:
+    e, Coulomb, C=Coulomb
+
+Electric current units:
+    A, mA, uA, nA
+
+Voltage units:
+    V, mV, uV, nV
+
+Power units:
+    W, mW, uW, nW
+
+Flux units:
+    Phi_0, mPhi_0, uPhi_0
+
+Planck constant:
+    h, h_bar
+
+Conductance units:
+    Conductance_quantum, G_0 = Conductance_quantum
+    S (i.e. Siemens), mS
+
+Resistance units:
+    mOhm, Ohm, kOhm, MOhm
+
+
+ ______________________________
+| methods for units conversion |
+|______________________________|
+
+*** Conversion between capacitance and charging energy ***
+
+convert_E_to_C(EnergyValue, [CAP_TYPE])
+   [converts from energy to capacitance units.
+    if CAP_TYPE=="2e" or just CAP_TYPE==2 then use 2-electron charging energy
+                                               formula E_C = (2e)^2/2C
+    if CAP_TYPE=="e", "1e", 1, or not specified (None) then use 
+                                           1-electron formula E_C = e^2/2C]
+
+this function can also be realized using syntax: 
+    EnergyValue|E_to_C([CAP_TYPE])
+    example:
+        >>> 123*GHz|E_to_C()
+        or
+        >>> 123*GHz|E_to_C("2e")
+
+inverse conversion (from capacitance to energy) an be made using either 
+function convert_C_to_E(Capacitance, [CAP_TYPE]) or writing
+CapacitanceValue|C_to_E([CAP_TYPE])
+
+
+
+*** Conversion between inductance and inductor energy ***
+
+convert_E_to_L(EnergyValue)
+   [converts energy to inductance using formula E_L = (Phi_0/2pi)^2/L]
+convert_L_to_E(InductanceValue)
+   [convert inductance into inductor energy]
+same can be achieved using syntax like:
+    InductanceValue = EnergyValue|E_to_L()
+    or
+    EnergyValue = IncuctanceValue|L_to_E()
+
+
+
+
