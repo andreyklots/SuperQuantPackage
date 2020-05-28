@@ -1,0 +1,60 @@
+Copyright (c) 2018 and later, Andrey R. Klots. With supervision
+                   of Lev B. Ioffe and with support of
+                   United States Army Research Office (ARO).
+All rights reserved
+
+This file is a part of "SuperQuant" package.
+Terms of use of this code are provided below (until long horizontal line)
+
+   Terms used in agreement:
+        "modification": for purposes of this agreement, the word "modified"
+      means any modification of the current code that includes not only
+      changes in original python code, but also translation of
+      this code (or parts of it) into another programming or script language
+      or compilation of this code and translation into binary form.
+
+   Use of this code:
+        If this software (in whole or in part) is used as a part of a
+      published research then need to be cited as "SuperQuant package by
+      AR Klots".
+        This software is free for use for purely research purposes.
+      However, if research using this code or its derivatives is a part of
+      development of a commercial or military product then direct permission
+      of the designer and owner of this code is required. 
+     
+   Modification and redistribution:
+        Any redistribution of this code, in whole or in part, modified or
+      unmodified, must reproduce all the terms of the current license
+      agreement. Each distribution must explicitly refer to the original
+      code.
+
+   Integration and compilation:
+        If this code (in whole or in part, modified or unmodified) is
+      used as a part of another code or software package, then that code
+      or software package must reproduce all the terms of the current
+      license agreement pertaining tho those parts of the new code or
+      software that were derived from the current code.
+        In order to incorporate the current code (in whole or in part,
+      modified or unmodified) as a part of software used for commercial
+      or military purposes, then permission of the owner and designer
+      of the code is required.
+        Name of SuperCondModel or names of its contributors
+      cannot be used to promote or endorse any other products, even
+      if they are derived from this software.
+     
+   Liability:
+        No person or organization that ownes this code, participated
+      or contributed to its creation, or holds the copyright, shall
+      be liable for any damage, loss and all other undesireable and
+      unexpected consequences, be they direct or indirect, or caused
+      by or related to this software in any other way. Any user of
+      the current code or its derivatives acknowledges that this 
+      code may contain errors and no party involved in creation of
+      this code is not liable for any undesirable consequences.
+     
+   Exemptions:
+        As a supporting organization, ARO is exempt from limitations on
+      use, modification, distribution and integration of this code.
+
+Date created: May 28 2020
+--------------------------------------------------------------------------
