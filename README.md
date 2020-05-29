@@ -8,6 +8,11 @@ of the license agreement published in
 github.com/andreyklots/SuperQuantPackage
 or in other repository created by author(s) of this code.
 
+  Please look at QuickDemo.pdf to get overall impression.
+
+  Please contact Andrey R Klots (andreyklots@gmail.com)
+if you have questions or comments.
+
  ----------------
 |  REQUIREMENTS  |
  ----------------
