@@ -24,7 +24,7 @@ For its operation the software requires only two modules:
   The software works on python versions 2.7 and above.
   It was not tested on earlier versions of python, but is likely
   to work. It was also tested on mobile platforms (such as
-  Python3 on Android OS).
+  Pydroid 3 on Android OS).
 
  -------------
 |  MAIN IDEA  |
