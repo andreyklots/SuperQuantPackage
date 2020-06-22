@@ -163,8 +163,8 @@ One can find following files in the folder:
                 corresponding set of t-dependent charge/flux biases
                 computes the Hamiltonian, diagonalizes the Hamiltonian and
                 records the set of all eigenenergies.
-
-6.     Files named "Template1*.py", "Template2*.py", "Template3*.py",...
+           
+6.   Files named "Template1*.py", "Template2*.py", "Template3*.py",...
          Less user-friendly templates that show in greater detail,
          step by step how to use SuperQuantModel module and class
          "EasyModel" in order to solve eigenvalue problems for different
