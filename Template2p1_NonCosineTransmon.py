@@ -141,8 +141,8 @@ for Q in QQ:                    # scan over flux biases
     EigVals = np.hstack((EigVals,D.real))       
     
     # print current step summary
-    print( "Phi/Phi_0 = "\
-           +str(round(Phi/ut.Phi_0, 2)) \
+    print( "Q/2e = "\
+           +str(round(Q, 2)) \
            +";    E_10/GHz = "\
            +str(round( (D[1,0]-D[0,0]).real/ut.GHz, 3))\
            +";  Anharmonicity/GHz = "\
